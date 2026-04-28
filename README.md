@@ -231,6 +231,8 @@ Add a sketch with labels showing:
 | `[Touch Sensor]`        | `3`      | `[As buttons]`                       |
 | `[Buzzer]`        | `1`      | `[Indication]`                       |
 | `[Resistors ]`        | `As requirement`      | `[Regulation]`                       |
+|`[I/O board ]`        | `1`      | `[Used to switch between modes]`                       |
+
 ## 8.2 Wiring Plan
 
 Describe the main electrical connections.
@@ -335,20 +337,10 @@ Overall, the software follows a loop-based execution model where inputs are cont
 ## 10.3 Code Flowchart
 Insert a flowchart showing your code logic.
 
-Suggested sequence:
-
-- start,
-- initialize,
-- wait for input,
-- read input,
-- decision,
-- trigger output,
-- repeat or reset,
-- error handling.
 
 **Insert image below:**  
-<img width="1600" height="1200" alt="image" src="" />
-<img width="1600" height="1200" alt="image" src="" />
+<img width="1600" height="1200" alt="image" src="https://github.com/A11-prgmr/SKILLLAB__NeuroFit-Arena-/blob/main/images/Block%20diagram.jpeg" />
+
 
 
 
@@ -360,7 +352,7 @@ Suggested sequence:
 | Item                             | Quantity | In Kit? | Need to Buy? | Estimated Cost | Material / Spec               | Why This Choice?          |
 | -------------------------------- | --------:| ------- | ------------ | --------------:| ----------------------------- | ------------------------- |
 | `[Vicharak Shrike Lite]`                        | `1`      | `Yes`   | `No`         | `0`            | `38 Pin Shrike`                | `[To control components]` |
-| `[Touch sensors]`                 | `[3]`    | `[Yes]` | `[No]`       | `0`            | `[LN296]`                     | `[To drive both motors]`  |
+| `[Touch sensors]`                 | `[3]`    | `[Yes]` | `[No]`       | `0`            | `[]`                     | `[To drive both motors]`  |
 | `[LEDs]`          | `[3]`    | `[No]`  | `[Yes]`      | `[150]`        | `[]` | `[]`    |
 | `[Force Sensitive Resistor]`               | `[1]`    | `[No]`  | `[Yes]`      | `[75]`         |                               |                           |
 
