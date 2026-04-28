@@ -399,7 +399,10 @@ Additionally, LEDs and touch sensors can be shared across multiple modes, reduci
 
 ## 12.1 Team Working Agreement
 After the team discussed the Ideation, the team divided the work and assigned the tasks
-Anshul worked on the complete documentation
+Anshul worked on the complete documentation.
+Rudra and Varad worked on prototyping and checking the working of sensors
+Niraj worked on the design and structuring of our game.
+Overall, every member contributed to every section wherever help was required.
 **Response:**  
 
 
