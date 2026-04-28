@@ -574,73 +574,66 @@ What is the single biggest uncertainty in your project at this stage?
 
 Describe how the project was physically made.
 
-Include:
+ Physical Implementation
 
-- cutting,
-- 3D printing,
-- assembly,
-- fastening,
-- wiring,
-- finishing,
-- revisions.
+The project was physically built using a breadboard-based prototyping approach centered around the Shrike Vicharak Pico Board. The Pico was powered via USB and placed on the breadboard, with its 3.3V and GND pins distributed across the power rails to supply all components.
 
-**Response:**  
-`The fabrication process involved designing, manufacturing, assembling, and refining both the physical structure and electronic integration of the system.`
+Three LEDs were connected to GPIO pins through current-limiting resistors and placed visibly on the breadboard to act as visual indicators. Three touch sensors were mounted and connected to GPIO input pins, with their VCC and GND connected to the common power rails. Care was taken to keep wiring short and organized to ensure stable signal transmission.
 
-`Design (CAD Modeling):
-The initial model was created using CAD software, where components were designed based on the actual dimensions of the electronic parts. This ensured accurate fitting and minimized errors during assembly.
-Cutting (Laser Cutting):
-The designed parts were fabricated using laser cutting techniques. Sheets were cut precisely according to the CAD model to create the structural base and mounts for components.`
+Additional components such as the buzzer and sensors (ultrasonic and FSR for extended modes) were connected in a modular manner, allowing easy integration and testing without redesigning the base circuit. All connections were made using jumper wires, and the setup was tested incrementally—starting with basic LED control, followed by input detection, and finally integrating full game logic.
 
-`Components were fixed using adhesives and mechanical supports. Certain parts were intentionally kept modular (not permanently fixed) to allow easy replacement and modification of electronics.
-Surface Finishing:
-Some parts were sanded to smooth rough edges after cutting. Sawdust mixed with adhesive was used to fill gaps and uneven edges, improving structural finish. The final structure was then painted for better aesthetics and durability.`
+The overall design prioritized simplicity, and ease of debugging, making it suitable for rapid prototyping and demonstration within the hackathon timeframe.
 
-`Environment Setup (Dark Room Fabrication):
-To enhance projection visibility, a controlled dark environment was created using Z-boards, paper sheets, and bedsheets. This minimized external light interference and improved projection clarity.
-Revisions and Iterations:
-Multiple adjustments were made throughout the process, including refining alignment, improving structural stability, repositioning components, and optimizing the interaction between the physical car and projected environment.`
+
 
 ## 16.2 Build Photos
 
-Add photos throughout the project.
-
-Suggested images:
-
-- early sketch,
-- prototype,
-- electronics testing,
-- mechanism test,
-- app screenshot,
-- final build.
+All the build photos are attached below
 
 
 
 
 
 
-# 17. Final Outcome
 
-## 17.1 Final Description
+## 17. Final Outcome
 
-Describe the final version of your project.
+### 17.1 Final Description
 
-**Response:**  
+The final version of NeuroFit Arena is a multi-mode interactive system built using the Shrike Vicharak Pico Board. It combines cognitive and physical training through different game modes, including reaction-based input using LEDs and touch sensors, motion detection using sensors, and grip strength measurement using an FSR.
 
+The system provides real-time feedback through LEDs, serial output, and optional audio signals. It is designed to be modular, allowing additional modes and features to be integrated easily. The final implementation successfully demonstrates real-time interaction, sensor integration, and adaptive gameplay logic.
 
-## 17.2 What Works Well
+---
 
+### 17.2 What Works Well
 
+* Accurate reaction time measurement using timer functions
+* Reliable touch sensor input with minimal delay
+* Clear visual feedback through LEDs
+* Smooth integration of multiple components
+* Low power operation using USB without stability issues
+* Modular design allowing easy expansion
 
-## 17.3 What Still Needs Improvement
+---
 
+### 17.3 What Still Needs Improvement
 
-## 17.4 What Changed From the Original Plan
+* Addition of LCD display for better user interface
+* Improved sensor calibration for motion and grip modes
+* Enhanced noise filtering for more stable readings
+* More advanced scoring and data tracking system
+* Better physical casing for durability and presentation
+* The mode 3 game which focused on physical movement was not done sucessfully and need work on it
+---
 
-How did the project change from the initial idea?
+### 17.4 What Changed From the Original Plan
 
-**Response:**  
+Initially, the project idea involved more complex hardware components such as motors and additional control systems. However, the design was simplified to focus on sensor-based interaction and real-time gameplay using the Shrike Pico Board.
 
+The shift allowed for faster implementation, improved reliability, and better focus on user interaction rather than mechanical complexity. Additional features like multi-mode gameplay and biometric sensing (grip strength) were introduced, making the final system more innovative and user-centric compared to the original plan.
+
+We also planned for 4 game modes, out of which we were able to sucesfully implement 3 modes.
 
 ---
 
@@ -691,6 +684,44 @@ What would you improve next?
 ` `
 
 ---
+# 18. Reflection
+
+## 18.1 Team Reflection
+
+**Response:**
+As a team, we performed rather well, as we divided responsibilities effectively, some working on wiring and hardware assembly while others were busy coding. The process of communication proved to be rather efficient, as we were exchanging information frequently while doing tests and debugging the code and device.
+
+Initially, however, the problem was the lack of clarity concerning the actual plan of actions, since we took longer than expected discussing the project concept. Yet when we finally agreed upon something and settled the issue of what should be accomplished by now, we managed our schedule well.
+
+---
+
+## 18.2 Technical Reflection
+
+**Response:**
+The practical aspect of this project allowed us to learn how sensors and microcontrollers interact within an interactive system in practice. We have become fully aware of the significance of proper connections in order for the whole system to function properly.
+
+As far as programming was concerned, it is safe to say that the project gave us a lot of opportunities to practice logical thinking.
+
+Another important lesson from the assignment was the complexity involved in integrating the components as everything needed to be well synchronized which turned out to be difficult but also very rewarding.
+
+---
+
+## 18.3 Design Reflection
+
+**Response:**
+It turns out that a project should not only be functional, but it should also be enjoyable to operate. The simplicity of user interactions, such as the LEDs and touch sensor input, makes the project much easier for others to use.
+
+The importance of gradual improvements through testing has also become apparent for us; slight modifications in the placement and logic have led to significant changes in system behavior. The main priorities were clear logic and interactivity.
+
+## 18.4 If You Had One More Hour
+
+**Response:**
+In case there was one more hour available to work on our project, the most immediate improvement would be related to visualization of the output, possibly through an LCD display. In addition to this, we would improve sensor readings by making them consistent.
+
+Another area where improvement could be applied is physical construction, for example, optimizing wiring.
+
+Also,
+If we had more time we would work on the mode we could not finish properly and ultimately had to scrap it due to time constraints
 
 # 19. Final Submission Checklist
 
@@ -713,7 +744,6 @@ Before submission, confirm that:
 - [x] Playtesting notes are included
 - [x] Build photos are included
 - [x] Final reflection is written
-<img width="1131" height="1600" alt="image" src="" />
 
 ---
 
