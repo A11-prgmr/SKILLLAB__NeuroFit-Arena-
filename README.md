@@ -319,7 +319,6 @@ Overall, the software follows a loop-based execution model where inputs are cont
 
 
 ## 10.3 Code Flowchart
-
 Insert a flowchart showing your code logic.
 
 Suggested sequence:
@@ -399,17 +398,8 @@ Additionally, LEDs and touch sensors can be shared across multiple modes, reduci
 # 12. Planning the Work
 
 ## 12.1 Team Working Agreement
-
-Write how your team will work together.
-
-Include:
-
-- how tasks are divided,
-- how decisions are made,
-- how progress will be checked,
-- what happens if a task is delayed,
-- how documentation will be maintained.
-
+After the team discussed the Ideation, the team divided the work and assigned the tasks
+Anshul worked on the complete documentation
 **Response:**  
 
 
