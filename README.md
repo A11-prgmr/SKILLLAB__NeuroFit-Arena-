@@ -173,14 +173,28 @@ Check all that apply.
 ## 6.2 High-Level System Description
 
 Explain how the system works in simple terms.
+                                                     |
 
+## 6.2 High-Level System Description
 
-**Response:**  
+**Response:**
+NeuroFit Arena is an interactive system that uses sensors and simple electronics to create engaging training games. The system takes input from the user through touch sensors, motion sensing, and grip pressure, and processes this information using the Pico microcontroller.
+
+Based on the input, the system responds by lighting LEDs, generating sounds, and calculating performance metrics such as reaction time. Each game mode focuses on a different skill, such as reflexes, memory, movement, or strength. The system continuously reads inputs, processes them, and gives instant feedback, making the interaction real-time and engaging.
+
+---
 
 ## 6.3 Input / Output Map
 
-| System Part                              | Type            | What It Does                                                               |
-
+| System Part          | Type    | What It Does                                     |
+| -------------------- | ------- | ------------------------------------------------ |
+| Touch Sensors        | Input   | Detect user touch to register responses in games |
+| Ultrasonic Sensor    | Input   | Measures distance to detect body movement        |
+| Force Sensor (FSR)   | Input   | Measures grip pressure for strength-based mode   |
+| Pico Microcontroller | Process | Processes all inputs and controls outputs        |
+| LEDs                 | Output  | Provide visual signals for gameplay              |
+| Buzzer               | Output  | Gives audio feedback during interaction          |
+| Serial Monitor / LCD | Output  | Displays results like reaction time and scores   |
 
 ---
 
@@ -526,20 +540,25 @@ Expected outcomes:
 
 ---
 
-# 14. Risks and Unknowns
 
-## 14.1 Risk Register
+## 14. Risks and Unknowns
 
-| Risk                                                            | Type         | Likelihood | Impact   | Mitigation Plan                                                                       | Owner                |
-| --------------------------------------------------------------- | ------------ | ---------- | -------- | ------------------------------------------------------------------------------------- | -------------------- |
-| WiFi connection between laptop and ESP32 becomes unstable       | `Technical`  | `Medium`   | `High`   | Keep ESP32 close, ensure stable power supply, reduce network load, add fail-safe stop | `[Gopal]`           |
+### 14.1 Risk Register
 
+| Risk                                         | Type      | Likelihood | Impact | Mitigation Plan                                                   | Owner         |
+| -------------------------------------------- | --------- | ---------- | ------ | ----------------------------------------------------------------- | ------------- |
+| Unstable touch sensor readings               | Technical | Medium     | Medium | Add small delays (debouncing), ensure proper wiring and grounding | [Team Member] |
+| Incorrect reaction time measurement          | Technical | Low        | High   | Use `millis()` correctly, test timing logic multiple times        | [Team Member] |
+| Loose wiring on breadboard                   | Technical | Medium     | High   | Double-check connections, keep wiring neat and secure             | [Team Member] |
+| Power fluctuations from USB                  | Technical | Low        | Medium | Use reliable USB source and cable, avoid overloading the board    | [Team Member] |
+| Sensor calibration issues (FSR / ultrasonic) | Technical | Medium     | Medium | Test and adjust threshold values before final demo                | [Team Member] |
+| Integration bugs between modes               | Technical | Medium     | High   | Test each mode separately, then integrate step-by-step            | [Team Member] |
 
-## 14.2 Biggest Unknown Right Now
+---
 
-What is the single biggest uncertainty in your project at this stage?
+### 14.2 Biggest Unknown Right Now
 
-**Response:**  
+The biggest uncertainty in our project is ensuring consistent and accurate sensor readings across all modes, especially when integrating multiple inputs like touch, motion, and grip sensing. Since different sensors behave differently in real-world conditions, maintaining stable performance during the final demo is a key challenge.
 
 
 ---
@@ -590,6 +609,10 @@ The overall design prioritized simplicity, and ease of debugging, making it suit
 
 All the build photos are attached below
 
+<img width="1600" height="1200" alt="image" src="https://github.com/A11-prgmr/SKILLLAB__NeuroFit-Arena-/blob/main/images/working.jpeg" />
+<img width="1600" height="1200" alt="image" src="https://github.com/A11-prgmr/SKILLLAB__NeuroFit-Arena-/blob/main/images/working2.jpeg" />
+<img width="1600" height="1200" alt="image" src="https://github.com/A11-prgmr/SKILLLAB__NeuroFit-Arena-/blob/main/images/working3.jpeg" />
+<img width="1600" height="1200" alt="image" src="https://github.com/A11-prgmr/SKILLLAB__NeuroFit-Arena-/blob/main/images/working4.jpeg" />
 
 
 
