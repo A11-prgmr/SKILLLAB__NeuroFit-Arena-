@@ -660,53 +660,7 @@ We also planned for 4 game modes, out of which we were able to sucesfully implem
 
 ---
 
-# 18. Reflection
 
-## 18.1 Team Reflection
-
-What did your team do well?  
-What slowed you down?  
-How well did you manage time, tasks, and responsibilities?
-
-**Response:**  
-
-
-## 18.2 Technical Reflection
-
-What did you learn about:
-
-- electronics,
-- coding,
-- mechanisms,
-- fabrication,
-- integration?
-
-**Response:**  
-
-
-## 18.3 Design Reflection
-
-What did you learn about:
-
-- designing ,
-- delight,
-- clarity,
-- physical interaction,
-- understanding,
-- iteration?
-
-**Response:**  
-
-
-## 18.4 If You Had One More hour
-
-What would you improve next?
-
-**Response:**  
-
-` `
-
----
 # 18. Reflection
 
 ## 18.1 Team Reflection
