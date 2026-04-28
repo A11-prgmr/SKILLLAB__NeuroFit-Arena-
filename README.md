@@ -112,8 +112,11 @@ Combination of electronics, mechanics, and human interaction
 # 4. Project Intent
 
 ## 4.1 User Journey 
+The user will choose one of the four modes available in the game.
+According to the user's choice, the respective game will be selected.
+For Game one and two, it is simple hand-eye co-ordination game where in game one the user has to touch the button according to the led.
+In game two, the player will need to touch the buttons in order the leds blink.
 
-Describe exactly how a user will use the project.Make it a story
 **Response:**  
 
                                                   |
@@ -234,13 +237,14 @@ Add a sketch with labels showing:
 | Component                 | Quantity | Purpose                               |
 | ------------------------- | --------:| ------------------------------------- |
 | `[Shrike Pi Pico]`                 | `2`      | `[Main controller]`                   |
-| `[Ultrasonic ]`    | `1`      | `[]`                    |
+| `[Ultrasonic ]`    | `2`      | `[]`                    |
 | `[FSR]`             | `2`      | `[Grip strength]`                     |
 | `[Buzzer ]`        | `1`      | `[Indicator]`                       |
 | `[I/O board]`   | `2`      | `[UI]`                             |
 | `[LCD ]`             | `1`      | `[Display ]`                 |
 | `LEDs` | `3`      | `[For reaction and memory game ]` |
 | `[Touch Sensor]`        | `3`      | `[As buttons]`                       |
+| `[Resistors ]`        | `1`      | `[]`                       |
 ## 8.2 Wiring Plan
 
 Describe the main electrical connections.
@@ -261,7 +265,7 @@ Insert a hand-drawn or software-made circuit diagram.
 
 | Question         | Response                                                                                                                                          |
 | ---------------- | ------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Power source     | `Battery (Li-ion pack)`                                                                                                                           |
+| Power source     | `Through USB`                                                                                                                           |
 | Voltage required | `~6–8.4V for motors (via driver), stepped down to 5V for ESP32 (buck converter)`                                                                  |
 | Current concerns | `Motors can draw high current under load, which may cause voltage drops affecting ESP32 and WiFi stability`                                       |
 | Safety concerns  | `Avoid over-discharging Li-ion batteries, ensure proper voltage regulation, prevent short circuits, and secure wiring to avoid loose connections` |
