@@ -317,7 +317,7 @@ Suggested sequence:
 | `[Vicharak Shrike Lite]`                        | `1`      | `Yes`   | `No`         | `0`            | `38 Pin Shrike`                | `[To control components]` |
 | `[Touch sensors]`                 | `[3]`    | `[Yes]` | `[No]`       | `0`            | `[LN296]`                     | `[To drive both motors]`  |
 | `[LEDs]`          | `[3]`    | `[No]`  | `[Yes]`      | `[150]`        | `[]` | `[]`    |
-| `[]`               | `[1]`    | `[No]`  | `[Yes]`      | `[75]`         |                               |                           |
+| `[Force Sensitive Resistor]`               | `[1]`    | `[No]`  | `[Yes]`      | `[75]`         |                               |                           |
 
 
 ## 11.2 Material Justification
