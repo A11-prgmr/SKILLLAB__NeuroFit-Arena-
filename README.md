@@ -235,12 +235,12 @@ Add a sketch with labels showing:
 | ------------------------- | --------:| ------------------------------------- |
 | `[Shrike Pi Pico]`                 | `2`      | `[Main controller]`                   |
 | `[Ultrasonic ]`    | `1`      | `[]`                    |
-| `[FSR]`             | `2`      | `[Rotate wheels]`                     |
-| `[Buzzer ]`        | `1`      | `[]`                       |
+| `[FSR]`             | `2`      | `[Grip strength]`                     |
+| `[Buzzer ]`        | `1`      | `[Indicator]`                       |
 | `[I/O board]`   | `2`      | `[UI]`                             |
 | `[LCD ]`             | `1`      | `[Display ]`                 |
-| `Servo Motor` | `1`      | `[]` |
-
+| `LEDs` | `3`      | `[For reaction and memory game ]` |
+| `[Touch Sensor]`        | `3`      | `[As buttons]`                       |
 ## 8.2 Wiring Plan
 
 Describe the main electrical connections.
