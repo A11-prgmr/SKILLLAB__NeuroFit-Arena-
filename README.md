@@ -210,15 +210,13 @@ Add a sketch with labels showing:
 
 | Component                 | Quantity | Purpose                               |
 | ------------------------- | --------:| ------------------------------------- |
-| `[Shrike Pi Pico]`                 | `2`      | `[Main controller]`                   |
+| `[Shrike Pi Pico]`                 | `1`      | `[Main controller]`                   |
 | `[Ultrasonic ]`    | `2`      | `[]`                    |
 | `[FSR]`             | `2`      | `[Grip strength]`                     |
-| `[Buzzer ]`        | `1`      | `[Indicator]`                       |
-| `[I/O board]`   | `2`      | `[UI]`                             |
-| `[LCD ]`             | `1`      | `[Display ]`                 |
 | `LEDs` | `3`      | `[For reaction and memory game ]` |
 | `[Touch Sensor]`        | `3`      | `[As buttons]`                       |
-| `[Resistors ]`        | `1`      | `[]`                       |
+| `[Buzzer]`        | `1`      | `[Indication]`                       |
+| `[Resistors ]`        | `As requirement`      | `[Regulation]`                       |
 ## 8.2 Wiring Plan
 
 Describe the main electrical connections.
@@ -258,33 +256,67 @@ Insert a hand-drawn or software-made circuit diagram.
 
 Describe what the code must do.
 
-Include:
+The software controls the overall functioning of the NeuroFit Arena by managing inputs, processing logic, and generating outputs in real time.
 
-- startup behavior,
-- input handling,
-- sensor reading,
-- decision logic,
-- output behavior,
-- communication logic,
-- reset behavior.
+###  Startup Behavior
 
-**Response:**  
-`
+On power-up, the system initializes all GPIO pins, serial communication, and connected peripherals (LEDs, touch sensors, buzzer). A startup message is displayed, and the system enters standby mode awaiting game initiation.
 
-- **Startup behavior:**  
-  The ESP32 initializes motor pins, PWM control, and starts a WiFi access point with a web server. The laptop initializes camera input, tracking system, and projection mapping.
-- **Input handling:**  
-  Movement commands are received from the laptop (pygame sends http requests)
-- **Sensor reading:**  
-  The camera continuously captures frames, and OpenCV detects ArUco markers to determine the car’s position and orientation.
-- **Decision logic:**  
-  The system maps the car’s position into a virtual coordinate system and checks for nearby obstacles or collisions. If movement is valid, the command is allowed; if not, it is blocked or replaced with a feedback action (like a slight shake).
-- **Output behavior:**  
-  The ESP32 drives the motors using PWM signals to control speed and direction. The projector displays the updated game environment, including obstacles, targets, and feedback visuals.
-- **Communication logic:**  
-  The laptop sends HTTP requests (e.g., `/forward`, `/left`) to the ESP32 over WiFi. The ESP32 parses these commands and executes motor actions.
-- **Reset behavior:**  
-  If no command is received within a short timeout, the ESP32 stops the motors. The game resets when a level is completed or restarted.`
+---
+
+###  Input Handling
+
+User inputs are received through touch sensors/buttons. Each input is continuously monitored using digital reads. Debouncing or slight delays are used to prevent false triggering.
+
+---
+
+### Sensor Reading
+
+The system reads data from sensors such as touch inputs and, in extended modes, ultrasonic or force sensors. Values are sampled periodically and processed to ensure stable readings.
+
+---
+
+### Decision Logic
+
+The core logic determines:
+
+* Random selection of LED (stimulus generation)
+* Matching of correct input with active LED
+
+* Validation of correct vs incorrect responses
+
+---
+
+### 💡 Output Behavior
+
+Based on the logic:
+
+* LEDs indicate the active stimulus
+* Serial monitor displays reaction time results
+* Optional buzzer provides audio feedback
+* LCD (if used) shows game status and scores
+
+---
+
+### 🔗 Communication Logic
+
+The system communicates results via serial output for debugging and performance tracking. This can be extended to Bluetooth or other modules if required.
+
+---
+
+### 🔁 Reset Behavior
+
+After each round:
+
+* Outputs are reset (LED OFF)
+* Variables are cleared or reinitialized
+* System waits for the next cycle with a random delay, ensuring unpredictable gameplay
+
+---
+
+Overall, the software follows a loop-based execution model where inputs are continuously monitored, processed, and responded to in real time.
+
+
 
 ## 10.3 Code Flowchart
 
