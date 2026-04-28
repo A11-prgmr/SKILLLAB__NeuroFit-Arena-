@@ -179,13 +179,6 @@ Check all that apply.
 
 Explain how the system works in simple terms.
 
-Include:
-
-- input,
-- processing,
-- output,
-- physical structure,
-- app interaction if any.
 
 **Response:**  
 
@@ -203,7 +196,7 @@ Include:
 Add an early sketch of the full idea.
 
 **Insert image below:**  
-
+<img width="1600" height="1200" alt="image" src="https://github.com/A11-prgmr/SKILLLAB__NeuroFit-Arena-/blob/main/images/image.png" />
 
 ## 7.2 Labeled Build Sketch
 
