@@ -1,23 +1,3 @@
- # SKILL LAB PRATICAL HACKATHON
-
-## Final Project README
-
-> **Project Weight:** 100%  
-> **Team Size:** 4/3 students  
-> **Project Duration:** 8 hours  
-> **Total Time Available:** 32 effort-hours per team  
-> **Project Type:** Playful, interactive, technology-based experience
-
-
-## Rules
-
-- Fill every section.
-- Do not delete headings.
-- If something does not apply, write `Not applicable` and explain why.
-- Add images, screenshots, sketches, links, and videos wherever useful.
-- Update task status and weekly logs regularly.
-- Use this file as evidence of process, not only as a final report.
-
 ---
 
 # 1. Team Identity
