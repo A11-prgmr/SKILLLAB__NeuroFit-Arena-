@@ -66,7 +66,7 @@ List what inspired the project.
 | Source Type | Title / Link                                                        | What Inspired You                                                                         |
 | ----------- | ------------------------------------------------------------------- | ----------------------------------------------------------------------------------------- |
 | `[Video]`   | `https://youtu.be/ah5ioznsX3k?si=t2rXrwfmkssxhTrY` | `Memory based game, we implemented some parts of it into our project` |
-|             |                                                                     |                                                                                           |
+|     '[AI Tools]'      |                                                                   |    Used to help enhance our project                                                                                       |
 |             |                                                                     |                                                                                           |
 
 ## 3.2 Original Twist
