@@ -444,7 +444,7 @@ Expected outcomes:
 - [x] Idea finalized
 - [x] Core interaction decided
 - [x] Sketches made
-- [ ] BOM completed
+- [x] BOM completed
 - [x] Purchase needs identified
 - [ ] Key uncertainty identified
 - [x] Basic feasibility tested
@@ -467,8 +467,8 @@ Expected outcomes:
 - [x] Physical body built
 - [x] Electronics integrated
 - [x] Code connected to hardware
-- [ ] App connected if required
 - [x] First playable version exists
+<img width="1600" height="1200" alt="image" src="https://github.com/A11-prgmr/SKILLLAB__NeuroFit-Arena-/blob/main/images/up3.jpeg" />
 
 ### Bi Hour 4 — Refine and Finish
 
@@ -479,6 +479,7 @@ Expected outcomes:
 - [x] Improvements made
 - [x] Documentation completed
 - [x] Final build ready
+ <img width="1600" height="1200" alt="image" src="https://github.com/A11-prgmr/SKILLLAB__NeuroFit-Arena-/blob/main/images/Final.jpeg" />
 
 ## 13.2  Update Log
 
