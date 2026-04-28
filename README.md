@@ -354,19 +354,25 @@ Suggested sequence:
 
 ## 11.2 Material Justification
 
-Explain why you selected your main materials and components.
+The components used in this project were selected to achieve a balance between functionality, simplicity, and real-time interaction. The Shrike Vicharak Pico Board (RP2040) was chosen as the main controller due to its reliable performance, it was also instructed to use RP2040 by our mentor, sufficient GPIO availability, and support for fast input/output operations required for real-time games.
 
-**Response:**  
-`DC motors (BO motors) were chosen instead of servos or steppers because the system requires continuous rotation for movement rather than precise angular control (Previously, we were considering using steppers as we were planning on tracking movement on the ESP using its relative position from an origin, but since we're using a camera now, this is not required). A motor driver (L298N) was used to allow bidirectional control and speed variation using PWM.`
+LEDs were used as visual indicators because they provide clear and immediate feedback to the user during gameplay, especially in reaction-based modes. Touch sensors were selected instead of mechanical buttons to ensure smoother and faster input detection with minimal physical effort, improving user experience.
+
+The ultrasonic sensor was included for motion detection due to its accuracy in measuring distance changes, making it suitable for physical activity-based challenges. A Force Sensitive Resistor (FSR) was used for grip strength measurement, enabling the system to capture analog input and extend the project into biometric sensing.
+
+A buzzer was added to provide audio feedback, enhancing interactivity and user engagement. All components were chosen to be low-power and compatible with 3.3V operation, allowing the entire system to be powered safely through USB without requiring additional power circuits.
 
 
 ## 11.3 Items You chose
 
 | Item                 | Why Needed               | Purchase Link | Latest Safe Date to Procure | Status       |
 | -------------------- | ------------------------ | ------------- | --------------------------- | ------------ |
-| `BO Motors + Wheels` | `Drive system for car`   | `robu.in`     | `15th April`                | `[Received]` |
-| `Buck Converter`     | `Stable power for ESP32` | `local store` | `before testing`            | `[Received]` |
-| `Li-ion Batteries`   | `Portable power`         | `local store` | `before testing`            | `Recieved`   |
+| `Shrike Vicharak Pico Board` | `Main controller for processing and I/O operations`   | `Provided / Lab`     | `Already available`                | `[Available]` |
+| `LEDs (3x)`     | `` | `Visual stimulus for reaction and game feedback` | `Lab`            | `Available` |
+| `Touch Sensors`   | `User input for interaction and response detection`         | `Lab` | `already availabe`            | `Recieved`   |
+| `Force Sensitive Resistor (FSR)`   | `Grip strength measurement (biometric input)`         | `Lab` | `already availabe`            | `Recieved`   |
+| `Buzzer`   | `Audio feedback for alerts and interaction`         | `Lab` | `already availabe`            | `Recieved`   |
+| `Breadboard & Wires`   | `Circuit prototyping and connections`         | `Lab` | `already availabe`            | `Recieved`   |
 
 ## 11.4 Budget Summary
 
