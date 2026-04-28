@@ -383,12 +383,12 @@ Include:
 
 | Area                 | Main Owner | Support Owner |
 | -------------------- | ---------- | ------------- |
-| Concept              | `[Gopal]`  | `[Kader]`    |
-| Electronics          | `[]`       | `[]`     |
-| Coding               | `[]`       | `[]`     |
-| Mechanical build     | `[]`       | `[]`    |
-| Testing              | `[]`       | `[]`    |
-| Documentation        | `[]`       | `[]`     |
+| Concept              | `[Anshul]`  | `[Rudra]`    |
+| Electronics          | `[Rudra]`       | `[Varad]`     |
+| Coding               | `[Rudra]`       | `[Anshul]`     |
+| Mechanical build     | `[Varad]`       | `[Neeraj]`    |
+| Testing              | `[Rudra]`       | `[Varad,Anshul]`    |
+| Documentation        | `[Anshul]`       | `[]`     |
 
 ---
 
@@ -403,19 +403,18 @@ Expected outcomes:
 - [x] Idea finalized
 - [x] Core interaction decided
 - [x] Sketches made
-- [x] BOM completed
+- [ ] BOM completed
 - [x] Purchase needs identified
 - [ ] Key uncertainty identified
 - [x] Basic feasibility tested
-<img width="1600" height="1200" alt="image" src=" https://github.com/A11-prgmr/SKILLLAB__NeuroFit-Arena-/blob/main/images/Update1.jpeg" />
+<img width="1600" height="1200" alt="image" src="https://github.com/A11-prgmr/SKILLLAB__NeuroFit-Arena-/blob/main/images/Update1.jpeg" />
 
 ### Bi Hour 2 — Build Subsystems
 
 Expected outcomes:
 
 - [x] Electronics tests completed
-- [ ] CAD / structure planning completed
-- [ ] App UI started if needed
+- [ ] structure planning completed
 - [x] Mechanical concept tested
 - [x] Main subsystems partially working
 <img width="1600" height="1200" alt="image" src="https://github.com/A11-prgmr/SKILLLAB__NeuroFit-Arena-/blob/main/images/Update2jpeg.jpeg" />
