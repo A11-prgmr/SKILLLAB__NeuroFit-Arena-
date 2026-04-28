@@ -355,8 +355,9 @@ Insert a flowchart showing your code logic.
 | `[Touch sensors]`                 | `[3]`    | `[Yes]` | `[No]`       | `0`            | `[]`                     | `[To drive both motors]`  |
 | `[LEDs]`          | `[3]`    | `[No]`  | `[Yes]`      | `[150]`        | `[]` | `[]`    |
 | `[Force Sensitive Resistor]`               | `[1]`    | `[No]`  | `[Yes]`      | `[75]`         |                               |                           |
-
-
+| `[I/O shield]`                        | `1`      | `Yes`   | `No`         | `0`            | ``                | `[As UI]` |
+| `[Stress buster sponge ball]`                        | `1`      | `Yes`   | `No`         | `0`            | ``                | `[Use along FSR]` |
+| `[Breadboard and connecting wires]`                        | `1`      | `Yes`   | `No`         | `0`            | `for connections`                | `[Connections]` |
 ## 11.2 Material Justification
 
 The components used in this project were selected to achieve a balance between functionality, simplicity, and real-time interaction. The Shrike Vicharak Pico Board (RP2040) was chosen as the main controller due to its reliable performance, it was also instructed to use RP2040 by our mentor, sufficient GPIO availability, and support for fast input/output operations required for real-time games.
