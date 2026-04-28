@@ -84,7 +84,7 @@ List what inspired the project.
 
 | Source Type | Title / Link                                                        | What Inspired You                                                                         |
 | ----------- | ------------------------------------------------------------------- | ----------------------------------------------------------------------------------------- |
-| `[Video]`   | `https://www.instagram.com/reel/DW4CT7WCDry/?igsh=cXg3dzAxYmdncDBo` | `How projection mapping can be used to create interactive digital + physical experiences` |
+| `[Video]`   | `https://youtu.be/ah5ioznsX3k?si=t2rXrwfmkssxhTrY` | `Memory based game, we implemented some parts of it into our project` |
 |             |                                                                     |                                                                                           |
 |             |                                                                     |                                                                                           |
 
@@ -93,10 +93,22 @@ List what inspired the project.
 What makes your project original?
 
 **Response:**  
+What makes this project unique is the integration of multiple skill-based games into one single system. Instead of focusing on just one aspect like memory or reaction, this project combines:
 
+Reflex testing (Reaction Mode)
+Cognitive ability (Memory Mode)
+Physical activity (Motion Mode)
+Strength measurement (GripX Mode)
+
+The originality lies in:
+
+Multi-mode design in a single device
+Use of real-world sensors for gameplay
+Adaptive difficulty system based on player performance
+Combination of electronics, mechanics, and human interaction
 
 ---
-
+ 
 # 4. Project Intent
 
 ## 4.1 User Journey 
@@ -142,21 +154,21 @@ Check all that apply.
 
 - [x] Sensor-based
 
-- [x] App-connected
+- [ ] App-connected
 
 - [x] Motorized
 
-- [ ] Sound-based
+- [x] Sound-based
 
 - [x] Light-based
 
 - [x] Screen/UI-based
 
-- [x] Fabricated structure
+- [] Fabricated structure
 
 - [x] Game logic based
 
-- [x] Installation
+- [ ] Installation
 
 - [ ] Other:
 
@@ -202,7 +214,7 @@ Add a sketch with labels showing:
 
 **Insert image below:**  
 `[Upload image and link here]`
-<img width="1600" height="1200" alt="image" src="https://github.com/user-attachments/assets/95637f31-b4e7-4427-a9e1-4b63fbeb0ac5" />
+<img width="1600" height="1200" alt="image" src="https://github.com/A11-prgmr/SKILLLAB__NeuroFit-Arena-/blob/main/images/Concept.jpeg" />
 
 ## 7.3 Approximate Dimensions
 
@@ -242,7 +254,7 @@ Insert a hand-drawn or software-made circuit diagram.
 
 **Insert image below:**  
 `[Upload image and link here]`
-<img width="867" height="1156" alt="" src="https://github.com/A11-prgmr/SKILLLAB__NeuroFit-Arena-/blob/main/images/Concept.jpeg" />
+<img width="867" height="1156" alt="" src="" />
 
 
 # 9. Power Plan
