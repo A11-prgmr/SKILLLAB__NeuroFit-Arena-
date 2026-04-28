@@ -8,39 +8,6 @@
 > **Total Time Available:** 32 effort-hours per team  
 > **Project Type:** Playful, interactive, technology-based experience
 
----
-
-# Before you begin
-
-## Fork and rename this repository
-
-After forking this repository, rename it using the format:
-
-`SKILLLAB_PROR-2026-TeamName`
-
-### Example
-
-`SKILLLAB_PROR-2026-AuroWizards`
-
-Do not keep the default repository name.
-
----
-
-# How to use this README
-
-This file is your team’s **working project document**.
-
-You must keep updating it throughout the build period.  
-By the final review, this README should clearly show:
-
-- your idea,
-- your planning,
-- your design decisions,
-- your technical process,
-- your build progress,
-- your testing,
-- your failures and changes,
-- your final outcome.
 
 ## Rules
 
@@ -57,37 +24,43 @@ By the final review, this README should clearly show:
 
 ## 1.1 Studio / Group Name
 
-`Project^2`
+`NeuroFit Arena`
 
 ## 1.2 Team Members
 
 | Name           | Primary Role                    | Secondary Role | Strengths Brought to the Project |
 | -------------- | ------------------------------- | -------------- | -------------------------------- |
-| `Gopalakrishnan` | `[Electronics / Coding / App ]` | `Documentation`  | `Documentation, Gift of Gab `|
-| `KAder Shaikh`  | `[Electronics / Fabrication]`   | `[Coding]`     | `Material Handling, Hardware`    |
-
+| `Anshul Tatke ` | `[Electronics / Coding ]` | `Documentation`  | `Documentation, Hardware`|
+| `Rudra Valecha`  | `[Electronics / Hardware]`   | `[Coding]`     | `Material Handling, Hardware`    |
+| `Varad Sawant`  | `[Hardware]`   | `[Design]`     | `Material Handling, Hardware`    |
+| `Neeraj Topale`  | `[ Design]`   | `[Structuring]`     | `Design`    |
 ## 1.3 Project Title
 
-`"Project Project"`
+`"NeuroFit Arena"`
 
-`(because Project-or)`
+
 
 <img width="1600" height="1131" alt="image" src="https://github.com/user-attachments/assets/c64bfbd4-b3b7-43d9-83ad-c203a5aa11bc" />
 
 ## 1.4 One-Line Pitch
 
-`A projected, fully customizable time portal where engineering education is done through PUBG battlefield in the comfort of our home`
+`NeuroFit Arena is an adaptive multi-sensor system that gamifies cognitive and physical training through real-time interactive challenges.
+`
 
 ## 1.5 Expanded Project Idea
 
-In 1–2 paragraphs, explain:
+##  NeuroFit Arena: Adaptive Cognitive & Physical Training System
 
-- what your project is,
-- what kind of experience it creates,
-- what technologies are involved.
+NeuroFit Arena is an interactive multi-mode training platform that combines cognitive challenges, physical activity, and biometric sensing into a single intelligent system. Designed using the Shrike Vicharak Pico (RP2040), the project transforms simple sensors into an engaging environment that enhances human performance through real-time feedback and adaptive difficulty.
+
+The system features four distinct modes—Reaction, Memory, Motion, and Grip Strength—each targeting a different aspect of human ability. Reaction mode measures reflex speed, Memory mode improves pattern recognition, Motion mode encourages physical coordination using distance sensing, and Grip mode evaluates strength and control using a force-sensitive resistor.
+
+What sets NeuroFit Arena apart is its ability to dynamically adjust difficulty based on user performance, creating a personalized training experience. By integrating multiple sensing techniques and combining them with interactive gameplay, the system goes beyond traditional electronics projects and moves toward a holistic human–machine interaction model.
+
+This project demonstrates how embedded systems can be applied in areas such as fitness training, cognitive development, and rehabilitation, making it both innovative and practically relevant.
 
 **Response:**  
-`A projected and fully customizable time portal can transform engineering education into an immersive PUBG-style battlefield experience from the comfort of home. In this environment, students can learn engineering concepts by entering a virtual battlefield where challenges, obstacles, and missions are designed around real technical problems. Instead of passively studying theory, learners actively apply concepts such as electronics, coding, sensors, robotics, mechanics, and system design to complete missions, solve problems, and progress through different levels. This approach makes engineering education more interactive, engaging, and practical by combining gaming, simulation, and hands-on problem-solving in a familiar and exciting format.`
+``
 
 ---
 
@@ -95,18 +68,6 @@ In 1–2 paragraphs, explain:
 
 ## 2.1 Experience, Not Social Problem
 
-This module does **not** require your project to solve a large social problem.
-
-You are allowed to build:
-
-- toys,
-- games,
-- interactive objects,
-- playful machines,
-- kinetic artifacts,
-- humorous devices,
-- strange but delightful experiences,
-- things that are entertaining to use or watch.
 
 
 
