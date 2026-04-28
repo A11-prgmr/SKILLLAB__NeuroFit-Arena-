@@ -240,9 +240,9 @@ Insert a hand-drawn or software-made circuit diagram.
 | Question         | Response                                                                                                                                          |
 | ---------------- | ------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Power source     | `Through USB`                                                                                                                           |
-| Voltage required | `~6–8.4V for motors (via driver), stepped down to 5V for ESP32 (buck converter)`                                                                  |
-| Current concerns | `Motors can draw high current under load, which may cause voltage drops affecting ESP32 and WiFi stability`                                       |
-| Safety concerns  | `Avoid over-discharging Li-ion batteries, ensure proper voltage regulation, prevent short circuits, and secure wiring to avoid loose connections` |
+| Voltage required | `5V via USB input, internally regulated to 3.3V for GPIO and sensors`                                                                  |
+| Current concerns | `System is low-power (LEDs, touch sensors, buzzer). Total current draw is minimal (<500 mA), well within USB limits. Avoid powering high-current devices like motors directly from the board`                                       |
+| Safety concerns  | `Ensure proper wiring, avoid short circuits on breadboard, use current-limiting resistors for LEDs, and do not exceed 3.3V on GPIO pins` |
 
 ---
 
