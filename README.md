@@ -466,10 +466,10 @@ Expected outcomes:
 
 | Week   | Planned Goal   | What Actually Happened | What Changed   | Next Steps     |
 | ------ | -------------- | ---------------------- | -------------- | -------------- |
-| Hour 1 | `[Checking Game 1 working ]` | `[Prototype obtained]`         | `[Write here]` | `[Write here]` |
-| Week 2 | `[Write here]` | `[Write here]`         | `[Write here]` | `[Write here]` |
-| Week 3 | `[Write here]` | `[Write here]`         | `[Write here]` | `[Write here]` |
-| Week 4 | `[Write here]` | `[Write here]`         | `[Write here]` | `[Write here]` |
+| Hour 1 | `[Checking Game 1 working ]` | `[Prototype obtained]`         | `[Shifted to Thonny ]` | `[Trying Arduino IDE]` |
+| Hour 2 | `Checking Game 2 working  ]` | `[Prototype obtained]`         | `[Write here]` | `[Write here]` |
+| Hour 3 | `[Game 3 Completion]` | `[Game 3 code gave multiple errors]`         | `[]` | `[Rechecking]` |
+| Hour 4 | `[Redo Game 3]` | `[]`         | `[Write here]` | `[Write here]` |
 
 ---
 
