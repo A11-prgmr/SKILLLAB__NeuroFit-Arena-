@@ -164,7 +164,7 @@ Check all that apply.
 
 - [x] Screen/UI-based
 
-- [] Fabricated structure
+- [ ] Fabricated structure
 
 - [x] Game logic based
 
