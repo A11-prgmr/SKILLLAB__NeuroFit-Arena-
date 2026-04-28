@@ -374,22 +374,25 @@ A buzzer was added to provide audio feedback, enhancing interactivity and user e
 | `Buzzer`   | `Audio feedback for alerts and interaction`         | `Lab` | `already availabe`            | `Recieved`   |
 | `Breadboard & Wires`   | `Circuit prototyping and connections`         | `Lab` | `already availabe`            | `Recieved`   |
 
+
 ## 11.4 Budget Summary
 
-| Budget Item           | Estimated Cost              |
-| --------------------- | ---------------------------:|
-| Electronics           | `[400]`                     |
-| Mechanical parts      | `[200]`                     |
-| Fabrication materials | `[0 (Available on campus)]` |
-| Purchased extras      | `[0]`                       |
-| Contingency           | `[300]`                     |
-| **Total**             | `[900]`                     |
+| Budget Item                               | Estimated Cost (INR)      |
+| ----------------------------------------- | ------------------------- |
+| Electronics (Pico, sensors, LEDs, buzzer) | [400]                     |
+| Mechanical parts                          | [0]                       |
+| Fabrication materials                     | [0 (Available on campus)] |
+| Purchased extras                          | [0]                       |
+| Contingency                               | [100]                     |
+| **Total**                                 | **[500]**                 |
+
+---
 
 ## 11.5 Budget Reflection
 
-If your cost is too high, what can be simplified, removed, substituted, or shared?
+The overall cost of the project is low because most components were available in the lab, and the system does not require expensive hardware such as motors, drivers, or external power modules. If cost reduction was necessary, components like the ultrasonic sensor or buzzer could be optionally removed without affecting the core functionality of the reaction-based system.
 
-**Response:**  
+Additionally, LEDs and touch sensors can be shared across multiple modes, reducing the need for duplicate hardware. The use of USB power eliminates the need for batteries or power management circuits, further minimizing cost. Overall, the design is cost-efficient, scalable, and suitable for educational and prototype applications.
 
 ---
 
