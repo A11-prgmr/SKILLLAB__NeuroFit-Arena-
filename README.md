@@ -224,24 +224,20 @@ Add a sketch with labels showing:
 
 | Component                 | Quantity | Purpose                               |
 | ------------------------- | --------:| ------------------------------------- |
-| `[ESP32]`                 | `1`      | `[Main controller]`                   |
-| `[L298N Motor Driver]`    | `1`      | `[Control Motors]`                    |
-| `[BO Motors]`             | `2`      | `[Rotate wheels]`                     |
-| `[Buck Converter]`        | `1`      | `[Power ESP32]`                       |
-| `[Li Ion Battery Pack]`   | `2`      | `[Power]`                             |
-| `[Projector]`             | `1`      | `[Display obstacles]`                 |
-| `Camera (Webcam / Phone)` | `1`      | `[Tracks car position using markers]` |
+| `[Shrike Pi Pico]`                 | `2`      | `[Main controller]`                   |
+| `[Ultrasonic ]`    | `1`      | `[]`                    |
+| `[FSR]`             | `2`      | `[Rotate wheels]`                     |
+| `[Buzzer ]`        | `1`      | `[]`                       |
+| `[I/O board]`   | `2`      | `[UI]`                             |
+| `[LCD ]`             | `1`      | `[Display ]`                 |
+| `Servo Motor` | `1`      | `[]` |
 
 ## 8.2 Wiring Plan
 
 Describe the main electrical connections.
 
 **Response:**  
-`The ESP32 is connected to the motor driver (L298N) using four GPIO pins (18,19; 22,23) to control motor direction (IN1, IN2, IN3, IN4). Two PWM-capable pins (ENA and ENB; 25 and 26) are connected to control the speed of each motor.
 
-The motors are connected to the output terminals of the motor driver. The motor driver is powered directly by the battery pack (higher voltage), while the ESP32 receives regulated 5V from the buck converter.
-
-All components share a common ground to ensure stable operation. The projector and camera are connected to the laptop, which handles tracking and game logic separately.`
 
 ## 8.3 Circuit Diagram
 
