@@ -187,14 +187,6 @@ Include:
 Add an early sketch of the full idea.
 
 **Insert image below:**  
-`[Upload image and link here]`
-
-Example:
-
-```md
-
-```
-
 
 
 ## 7.2 Labeled Build Sketch
