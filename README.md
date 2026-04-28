@@ -34,6 +34,7 @@
 | `Rudra Valecha`  | `[Electronics / Hardware]`   | `[Coding]`     | `Material Handling, Hardware`    |
 | `Varad Sawant`  | `[Hardware]`   | `[Design]`     | `Material Handling, Hardware`    |
 | `Neeraj Topale`  | `[ Design]`   | `[Structuring]`     | `Design`    |
+<img width="1600" height="1131" alt="image" src="https://github.com/A11-prgmr/SKILLLAB__NeuroFit-Arena-/blob/main/images/Group9.jpeg" />
 ## 1.3 Project Title
 
 `"NeuroFit Arena"`
