@@ -97,31 +97,45 @@ The user will choose one of the four modes available in the game.
 According to the user's choice, the respective game will be selected.
 For Game one and two, it is simple hand-eye co-ordination game where in game one the user has to touch the button according to the led.
 In game two, the player will need to touch the buttons in order the leds blink.
-
-**Response:**  
-
-                                                  |
-
+For Game 4 one simply needs to grip the stress ball and press it.
 
 
 ---
 
-# 5. Definition of Success
+## 5. Definition of Success
 
-## 5.1 Definition of “Usable”
+### 5.1 Definition of “Usable”
 
+The system is considered usable if it can reliably detect user inputs through touch sensors, respond with correct LED outputs, and accurately measure and display reaction time. The interface should be intuitive, with clear visual feedback, allowing users to play without prior instructions.
 
+---
 
-## 5.2 Minimum Usable Version
+### 5.2 Minimum Usable Version
 
-What is the smallest version of this project that still delivers the core experience?
+The minimum usable version of the project consists of:
 
-**Response:**  
+* 3 LEDs and 3 touch sensors
+* Random LED activation
+* Correct input detection
+* Reaction time calculation using timer functions
+* Output displayed via serial monitor
 
+This version delivers the core experience of a reaction-based game and demonstrates real-time interaction between user and system.
 
-## 5.3 Stretch Features
+---
 
-What features are nice to have but not essential?
+### 5.3 Stretch Features
+
+The following features enhance the system but are not essential:
+
+* Multiple game modes (Memory, Motion, Grip strength)
+* LCD display for real-time score and feedback
+* Buzzer for audio interaction
+* Adaptive difficulty based on user performance
+* Multi-player or scoring system
+* Biometric input using FSR (grip strength analysis)
+
+These features improve engagement and functionality but are not required for the basic operation of the system.
 
 
 ---
