@@ -40,7 +40,7 @@
 
 
 
-<img width="1600" " />
+<img width="1600" height="1131" alt="image" src="https://github.com/A11-prgmr/SKILLLAB__NeuroFit-Arena-/blob/main/images/Title.png" />
 
 ## 1.4 One-Line Pitch
 
