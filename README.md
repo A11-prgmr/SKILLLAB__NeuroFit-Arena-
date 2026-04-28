@@ -59,9 +59,6 @@ What sets NeuroFit Arena apart is its ability to dynamically adjust difficulty b
 
 This project demonstrates how embedded systems can be applied in areas such as fitness training, cognitive development, and rehabilitation, making it both innovative and practically relevant.
 
-**Response:**  
-``
-
 ---
 
 # 2. Philosophy Fit
