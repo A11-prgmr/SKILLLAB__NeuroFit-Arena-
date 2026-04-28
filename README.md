@@ -236,6 +236,37 @@ Add a sketch with labels showing:
 ## 8.2 Wiring Plan
 
 Describe the main electrical connections.
+ Overview
+
+The system consists of three LEDs for visual output and three touch sensors for user input. All components are connected to the Shrike Vicharak Pico Board using GPIO pins, with common power and ground rails on a breadboard.
+
+ Power Distribution
+3.3V from Pico → Breadboard positive rail
+GND from Pico → Breadboard ground rail
+All components share common VCC and GND
+
+LED Connections (Outputs)
+
+Each LED is connected to a GPIO pin through a current-limiting resistor.
+
+LED	GPIO Pin	Connection
+LED 1	GP5	GP5 → 1kΩ resistor → LED → GND
+LED 2	GP6	GP6 → 1kΩ resistor → LED → GND
+LED 3	GP7	GP7 → 1kΩ resistor → LED → GND
+
+ Touch Sensor Connections (Inputs)
+
+Each touch sensor module is connected as follows:
+
+Sensor	GPIO Pin	Connection
+Touch 1	GP21	OUT → GP21, VCC → 3.3V, GND → GND
+Touch 2	GP22	OUT → GP22, VCC → 3.3V, GND → GND
+Touch 3	GP23	OUT → GP23, VCC → 3.3V, GND → GND
+
+ Signal Flow
+Touch sensor detects user input → sends HIGH signal to GPIO
+Pico processes input → activates corresponding LED
+Reaction time is calculated and displayed via serial output
 
 **Response:**  
 
@@ -247,7 +278,7 @@ Insert a hand-drawn or software-made circuit diagram.
 **Insert image below:**  
 `[Upload image and link here]`
 <img width="867" height="1156" alt="" src="https://github.com/A11-prgmr/SKILLLAB__NeuroFit-Arena-/blob/main/images/Circdiag1n2.jpeg" />
-
+<img width="867" height="1156" alt="" src="https://github.com/A11-prgmr/SKILLLAB__NeuroFit-Arena-/blob/main/images/circuitfinal.jpeg" />
 
 # 9. Power Plan
 
