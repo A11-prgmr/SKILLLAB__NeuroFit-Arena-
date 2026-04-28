@@ -65,10 +65,17 @@ This project demonstrates how embedded systems can be applied in areas such as f
 
 ## 2.1 Experience, Not Social Problem
 
+This project focuses on creating an interactive and engaging user experience rather than solving a specific social problem. The goal is to combine mental and physical activities into a single system that users can enjoy while improving their cognitive and reflex abilities.
+
+In today’s digital world, most games are limited to screens. This project brings interaction into the physical world, where users must move, react, remember, and apply strength in real-time. It transforms traditional gaming into an immersive experience involving both the body and the brain.
+
 
 
 
 # 3. Inspiration
+This game intends to improve one's reaction time, memory along with keeping the person physically active.
+Our inspiration to create this game was mainly about wellbeing. The game aims to help kids improve their memory and reaction time while entertaining them, whereas it also targets aging adults to help them regularly sharpen their hand-eye co-ordination and brush their memory.
+Overall we aim to make it an all-ages game inclusive to everyone
 
 ## 3.1 References
 
