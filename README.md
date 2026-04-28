@@ -432,6 +432,7 @@ Expected outcomes:
 - [x] Purchase needs identified
 - [ ] Key uncertainty identified
 - [x] Basic feasibility tested
+<img width="1600" height="1200" alt="image" src=" https://github.com/A11-prgmr/SKILLLAB__NeuroFit-Arena-/blob/main/images/Update1.jpeg" />
 
 ### Bi Hour 2 — Build Subsystems
 
@@ -442,6 +443,7 @@ Expected outcomes:
 - [ ] App UI started if needed
 - [x] Mechanical concept tested
 - [x] Main subsystems partially working
+<img width="1600" height="1200" alt="image" src="https://github.com/A11-prgmr/SKILLLAB__NeuroFit-Arena-/blob/main/images/Update2jpeg.jpeg" />
 
 ### Bi Hour 3 — Integrate
 
@@ -467,7 +469,7 @@ Expected outcomes:
 
 | Week   | Planned Goal   | What Actually Happened | What Changed   | Next Steps     |
 | ------ | -------------- | ---------------------- | -------------- | -------------- |
-| Week 1 | `[Write here]` | `[Write here]`         | `[Write here]` | `[Write here]` |
+| Hour 1 | `[Checking Game 1 working ]` | `[Prototype obtained]`         | `[Write here]` | `[Write here]` |
 | Week 2 | `[Write here]` | `[Write here]`         | `[Write here]` | `[Write here]` |
 | Week 3 | `[Write here]` | `[Write here]`         | `[Write here]` | `[Write here]` |
 | Week 4 | `[Write here]` | `[Write here]`         | `[Write here]` | `[Write here]` |
