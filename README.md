@@ -476,9 +476,12 @@ Expected outcomes:
 | Week   | Planned Goal   | What Actually Happened | What Changed   | Next Steps     |
 | ------ | -------------- | ---------------------- | -------------- | -------------- |
 | Hour 1 | `[Checking Game 1 working ]` | `[Prototype obtained]`         | `[Shifted to Thonny ]` | `[Trying Arduino IDE]` |
-| Hour 2 | `Checking Game 2 working  ]` | `[Prototype obtained]`         | `[Write here]` | `[Write here]` |
+| Hour 2 | `Checking Game 2 working  ]` | `[Prototype obtained,LED stopped working]`         | `[]` | `[Change of LEDs]` |
 | Hour 3 | `[Game 3 Completion]` | `[Game 3 code gave multiple errors]`         | `[]` | `[Rechecking]` |
-| Hour 4 | `[Redo Game 3]` | `[]`         | `[Write here]` | `[Write here]` |
+| Hour 4 | `[Redo Game 3]` | `[]`         | `[Still not functional]` | `[Move on to Game 4]` |
+| Hour 5 | `[Start on game 4]` | `[Game 4 functionality checked]`         | `[]` | `[Start working on final check]` |
+| Hour 6 | `[Designing and structuring]` | `[work on box continued]`         | `[Final design obtained]` | `[Start pitch and presentation]` |
+| Hour 7 | `[]` | `[]`         | `[]` | `[]` |
 
 ---
 
